@@ -19,9 +19,8 @@ export class WebCheckout implements ICheckout {
 
   async enterShippingDetails(firstName: string, lastName: string, postalCode: string): Promise<void> {
     const checkoutBtn = this.page.locator(this.checkoutButton);
-    if ((await checkoutBtn.count()) > 0 && (await checkoutBtn.isVisible())) {
-      await checkoutBtn.click();
-    }
+    await checkoutBtn.waitFor({ state: 'visible', timeout: 10000 });
+    await checkoutBtn.click();
 
     await this.page.fill(this.firstNameInput, firstName);
     await this.page.fill(this.lastNameInput, lastName);

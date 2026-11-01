@@ -30,5 +30,6 @@ export const mobileConfig = {
     'appium:newCommandTimeout': 240,
     'appium:noReset': false,
     'appium:fullReset': false,
+    'appium:isHeadless': false,
   },
 };

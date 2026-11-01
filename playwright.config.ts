@@ -22,6 +22,7 @@ export default defineConfig({
     ],
   ],
   use: {
+    headless: false,
     trace: 'retain-on-failure',
   },
 });

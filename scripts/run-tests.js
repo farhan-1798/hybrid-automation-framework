@@ -116,13 +116,13 @@ async function main() {
       console.log('[INFO] Executing Web automation in headed mode...\n');
       testStatus = runCommand('npx playwright test --headed', { PLATFORM: 'web' });
     } else if (target === 'android') {
-      console.log('[INFO] Executing Android mobile automation (No web browser launched)...\n');
+      console.log('[INFO] Executing Android mobile automation in headed mode on device/emulator...\n');
       testStatus = runCommand('npx playwright test', { PLATFORM: 'android' });
     } else if (target === 'all') {
       console.log('[INFO] Step 1 of 2: Executing Web automation in headed mode...\n');
       const webStatus = runCommand('npx playwright test --headed', { PLATFORM: 'web' });
 
-      console.log('\n[INFO] Step 2 of 2: Executing Android mobile automation...\n');
+      console.log('\n[INFO] Step 2 of 2: Executing Android mobile automation in headed mode...\n');
       const androidStatus = runCommand('npx playwright test', { PLATFORM: 'android' });
 
       testStatus = webStatus !== 0 ? webStatus : androidStatus;

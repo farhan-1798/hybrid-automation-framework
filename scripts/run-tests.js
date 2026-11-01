@@ -1,6 +1,6 @@
 const { spawnSync, spawn } = require('child_process');
 const path = require('path');
-
+const fs = require('fs');
 const os = require('os');
 
 const target = (process.argv[2] || 'all').toLowerCase();
@@ -88,6 +88,12 @@ async function ensureAppiumServer() {
 
 async function main() {
   let appiumProcess = null;
+
+  // Clean old test run artifacts so the Allure report shows only the current run
+  const resultsDir = path.resolve(__dirname, '../allure-results');
+  if (fs.existsSync(resultsDir)) {
+    fs.rmSync(resultsDir, { recursive: true, force: true });
+  }
 
   try {
     let testStatus = 0;

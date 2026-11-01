@@ -37,8 +37,9 @@ export const test = base.extend<FrameworkFixtures>({
         await driver.deleteSession();
       }
     } else {
-      // Launch web browser only when running Web tests
-      const browser: PlaywrightBrowser = await chromium.launch({ headless: false });
+      // Launch web browser in headed mode by default unless HEADLESS=true is explicitly set
+      const isHeadless = process.env.HEADLESS === 'true';
+      const browser: PlaywrightBrowser = await chromium.launch({ headless: isHeadless });
       const context: BrowserContext = await browser.newContext();
       const page: Page = await context.newPage();
 

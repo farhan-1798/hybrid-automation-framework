@@ -1,0 +1,5 @@
+scenario,web_username,web_password,mobile_username,mobile_password,first_name,last_name,postal_code,address,city,country,card_name,card_number,card_exp,card_cvv
+standard_user,standard_user,secret_sauce,bob@example.com,10203040,John,Doe,12345,123 Main Street,Metropolis,United States,John Doe,325812657568789,03/28,123
+locked_out_user,locked_out_user,secret_sauce,alice@example.com,10203040,,,,,,,,,,
+checkout_user,standard_user,secret_sauce,bob@example.com,10203040,Alice,Smith,90210,456 Market St,Beverly Hills,United States,Alice Smith,325812657568789,03/28,123
+

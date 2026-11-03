@@ -25,4 +25,18 @@ export default defineConfig({
     headless: false,
     trace: 'retain-on-failure',
   },
+  projects: [
+    {
+      name: 'Web-Desktop',
+      use: {
+        headless: false,
+      },
+    },
+    {
+      name: 'Android-Mobile',
+      use: {
+        headless: false,
+      },
+    },
+  ],
 });

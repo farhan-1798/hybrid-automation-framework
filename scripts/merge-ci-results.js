@@ -57,3 +57,4 @@ const envContent = [
 
 fs.writeFileSync(envPropertiesPath, envContent, 'utf-8');
 console.log('[CI] Generated environment.properties successfully.');
+

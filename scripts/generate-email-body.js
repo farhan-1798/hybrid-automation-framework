@@ -103,3 +103,4 @@ const html = `
 const outputPath = path.resolve(__dirname, '../allure-results/email-body.html');
 fs.writeFileSync(outputPath, html.trim(), 'utf-8');
 console.log(`[CI] Rendered email body template to: ${outputPath}`);
+

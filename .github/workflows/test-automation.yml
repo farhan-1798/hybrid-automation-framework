@@ -196,3 +196,4 @@ jobs:
           from: Automated CI/CD Reporter <${{ secrets.MAIL_USERNAME || 'ci-reporter@noreply.com' }}>
           html_body: file://allure-results/email-body.html
           ignore_cert: true
+

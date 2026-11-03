@@ -1,0 +1,199 @@
+name: Cross-Platform Hybrid Automation CI/CD
+
+on:
+  push:
+    branches:
+      - main
+      - 'feature/**'
+      - 'CI-CD-**'
+      - 'platform-seperated-**'
+      - 'test-data-**'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Target platform to run'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - 'all'
+          - 'web'
+          - 'android'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  # =========================================================================
+  # 🌐 JOB 1: Web Tests (Playwright Chromium)
+  # =========================================================================
+  test-web:
+    name: 🌐 Web Tests (Chromium)
+    runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_dispatch' || inputs.platform == 'all' || inputs.platform == 'web'
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: 📦 Install Project Dependencies
+        run: npm ci
+
+      - name: 🌐 Install Playwright Chromium & OS Dependencies
+        run: npx playwright install --with-deps chromium
+
+      - name: 🚀 Execute Web Automation Suite (Project: Web-Desktop)
+        run: HEADLESS=true PLATFORM=web npx playwright test --project=Web-Desktop
+
+      - name: 📤 Upload Web Allure Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: web-results
+          path: allure-results
+          retention-days: 7
+
+  # =========================================================================
+  # 📱 JOB 2: Android Tests (Emulator + Appium 2)
+  # =========================================================================
+  test-android:
+    name: 📱 Android Tests (Emulator)
+    runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_dispatch' || inputs.platform == 'all' || inputs.platform == 'android'
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ☕ Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: ⚙️ Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: 📦 Install Project Dependencies
+        run: npm ci
+
+      - name: 📲 Verify & Download Sauce Labs Demo APK
+        run: node scripts/download-apk.js
+
+      - name: ⚡ Enable KVM Acceleration
+        run: |
+          echo 'Enabling KVM hardware virtualization permissions...'
+          sudo chmod 777 /dev/kvm || true
+
+      - name: 🚀 Install Appium UiAutomator2 Driver & Start Server
+        run: |
+          npx appium driver install uiautomator2 || true
+          npx appium --port 4723 &
+          sleep 4
+          curl --retry 10 --retry-delay 2 --retry-connrefused -s http://127.0.0.1:4723/status || echo "Appium warming up..."
+
+      - name: 📱 Launch Android Emulator & Execute Tests (Project: Android-Mobile)
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 30
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          disable-animations: true
+          emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: PLATFORM=android npx playwright test --project=Android-Mobile
+
+      - name: 📤 Upload Android Allure Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-results
+          path: allure-results
+          retention-days: 7
+
+  # =========================================================================
+  # 📊 JOB 3: Consolidated Reporting, GitHub Pages & Email Notification
+  # =========================================================================
+  report-and-notify:
+    name: 📊 Consolidate, Deploy & Notify
+    needs: [test-web, test-android]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: 📦 Install Project Dependencies
+        run: npm ci
+
+      - name: 📂 Prepare Clean Results Directory
+        run: mkdir -p allure-results/web allure-results/android
+
+      - name: 📥 Download Web Results
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: web-results
+          path: allure-results/web
+
+      - name: 📥 Download Android Results
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: android-results
+          path: allure-results/android
+
+      - name: 🔄 Merge Results & Generate CI Environment Metadata
+        run: node scripts/merge-ci-results.js
+
+      - name: 📊 Compile Consolidated Allure HTML Report
+        run: npx allure generate allure-results --clean -o allure-report
+
+      - name: 🌐 Deploy Live Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          keep_files: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+
+      - name: ✉️ Render HTML Email Notification Template
+        run: node scripts/generate-email-body.js "${{ needs.test-web.result }}" "${{ needs.test-android.result }}" "${{ job.status }}"
+
+      - name: 📧 Send Report Link to farhan.naser71@gmail.com
+        uses: dawidd6/action-send-mail@v3
+        continue-on-error: true
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: 🚀 [CI/CD] Test Execution #${{ github.run_number }} - Web: ${{ needs.test-web.result }} | Android: ${{ needs.test-android.result }}
+          to: farhan.naser71@gmail.com
+          from: Automated CI/CD Reporter <${{ secrets.MAIL_USERNAME || 'ci-reporter@noreply.com' }}>
+          html_body: file://allure-results/email-body.html
+          ignore_cert: true
+

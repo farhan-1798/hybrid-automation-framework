@@ -29,7 +29,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: "${{ github.workflow }}-${{ github.ref }}"
   cancel-in-progress: false
 
 jobs:
@@ -56,7 +56,7 @@ jobs:
       - name: 🌐 Install Playwright Chromium & OS Dependencies
         run: npx playwright install --with-deps chromium
 
-      - name: 🚀 Execute Web Automation Suite (Project: Web-Desktop)
+      - name: "🚀 Execute Web Automation Suite (Project: Web-Desktop)"
         run: HEADLESS=true PLATFORM=web npx playwright test --project=Web-Desktop
 
       - name: 📤 Upload Web Allure Results
@@ -108,7 +108,7 @@ jobs:
           sleep 4
           curl --retry 10 --retry-delay 2 --retry-connrefused -s http://127.0.0.1:4723/status || echo "Appium warming up..."
 
-      - name: 📱 Launch Android Emulator & Execute Tests (Project: Android-Mobile)
+      - name: "📱 Launch Android Emulator & Execute Tests (Project: Android-Mobile)"
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 30
@@ -191,9 +191,9 @@ jobs:
           server_port: 465
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: 🚀 [CI/CD] Test Execution #${{ github.run_number }} - Web: ${{ needs.test-web.result }} | Android: ${{ needs.test-android.result }}
+          subject: "🚀 [CI/CD] Test Execution #${{ github.run_number }} - Web: ${{ needs.test-web.result }} | Android: ${{ needs.test-android.result }}"
           to: farhan.naser71@gmail.com
-          from: Automated CI/CD Reporter <${{ secrets.MAIL_USERNAME || 'ci-reporter@noreply.com' }}>
+          from: "Automated CI/CD Reporter <${{ secrets.MAIL_USERNAME || 'ci-reporter@noreply.com' }}>"
           html_body: file://allure-results/email-body.html
           ignore_cert: true
 

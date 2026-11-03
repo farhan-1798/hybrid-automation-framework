@@ -113,17 +113,17 @@ async function main() {
     }
 
     if (target === 'web') {
-      console.log('[INFO] Executing Web automation in headed mode...\n');
-      testStatus = runCommand('npx playwright test --headed', { PLATFORM: 'web' });
+      console.log('[INFO] Executing Web automation in headed mode (Project: Web-Desktop)...\n');
+      testStatus = runCommand('npx playwright test --project=Web-Desktop --headed', { PLATFORM: 'web' });
     } else if (target === 'android') {
-      console.log('[INFO] Executing Android mobile automation in headed mode on device/emulator...\n');
-      testStatus = runCommand('npx playwright test', { PLATFORM: 'android' });
+      console.log('[INFO] Executing Android mobile automation in headed mode on device/emulator (Project: Android-Mobile)...\n');
+      testStatus = runCommand('npx playwright test --project=Android-Mobile', { PLATFORM: 'android' });
     } else if (target === 'all') {
-      console.log('[INFO] Step 1 of 2: Executing Web automation in headed mode...\n');
-      const webStatus = runCommand('npx playwright test --headed', { PLATFORM: 'web' });
+      console.log('[INFO] Step 1 of 2: Executing Web automation in headed mode (Project: Web-Desktop)...\n');
+      const webStatus = runCommand('npx playwright test --project=Web-Desktop --headed', { PLATFORM: 'web' });
 
-      console.log('\n[INFO] Step 2 of 2: Executing Android mobile automation in headed mode...\n');
-      const androidStatus = runCommand('npx playwright test', { PLATFORM: 'android' });
+      console.log('\n[INFO] Step 2 of 2: Executing Android mobile automation in headed mode (Project: Android-Mobile)...\n');
+      const androidStatus = runCommand('npx playwright test --project=Android-Mobile', { PLATFORM: 'android' });
 
       testStatus = webStatus !== 0 ? webStatus : androidStatus;
     } else {

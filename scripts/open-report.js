@@ -18,9 +18,35 @@ function getCleanEnv() {
   return cleanEnv;
 }
 
+// Write environment details into allure-results so Allure displays them on the dashboard
+function writeEnvironmentProperties() {
+  if (!fs.existsSync(RESULTS_DIR)) return;
+
+  const envFile = path.join(RESULTS_DIR, 'environment.properties');
+  const envContent = [
+    'Framework=Hybrid Playwright + WebdriverIO + Appium',
+    'Execution.Mode=Headed (Visible GUI)',
+    'Test.Data.Management=testdata.csv',
+    'Web.Platform=Linux / Chromium Headed',
+    'Web.Target.URL=https://www.saucedemo.com',
+    'Mobile.Platform=Android 14 (API 37)',
+    'Mobile.Driver=UiAutomator2 (v4.2.9)',
+    'Mobile.Server=Appium (v2.19.0)',
+    'Mobile.Device=emulator-5554 (6GB RAM)',
+    'Mobile.Application=Sauce Labs React Native Demo (v1.3.0)',
+  ].join('\n');
+
+  try {
+    fs.writeFileSync(envFile, envContent, 'utf-8');
+  } catch (err) {
+    console.warn('[WARNING] Could not write environment.properties:', err.message);
+  }
+}
+
 // 1. Generate Allure Report if results exist
 function generateReport() {
   if (fs.existsSync(RESULTS_DIR)) {
+    writeEnvironmentProperties();
     console.log('[INFO] Generating fresh Allure HTML report from allure-results...');
     const result = spawnSync('npx', ['allure', 'generate', RESULTS_DIR, '--clean', '-o', REPORT_DIR], {
       env: getCleanEnv(),

@@ -1,0 +1,109 @@
+[INFO] Connecting to Appium server for Android (No web browser launched)...
+2026-11-04T17:58:57.562Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-11-04T17:58:57.564Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-11-04T17:58:57.564Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-11-04T17:59:03.783Z INFO webdriver: COMMAND findElements("accessibility id", "open menu")
+2026-11-04T17:59:03.783Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:03.783Z INFO webdriver: DATA { using: 'accessibility id', value: 'open menu' }
+2026-11-04T17:59:04.400Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0013-ffff-ffff00000024',
+    ELEMENT: '00000000-0000-0013-ffff-ffff00000024'
+  }
+]
+2026-11-04T17:59:04.403Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0013-ffff-ffff00000024")
+2026-11-04T17:59:04.403Z INFO webdriver: [GET] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff00000024/displayed
+2026-11-04T17:59:05.031Z INFO webdriver: RESULT true
+2026-11-04T17:59:05.031Z INFO webdriver: COMMAND elementClick("00000000-0000-0013-ffff-ffff00000024")
+2026-11-04T17:59:05.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff00000024/click
+2026-11-04T17:59:05.123Z INFO webdriver: RESULT null
+2026-11-04T17:59:05.123Z INFO webdriver: COMMAND findElements("accessibility id", "menu item log in")
+2026-11-04T17:59:05.124Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:05.124Z INFO webdriver: DATA { using: 'accessibility id', value: 'menu item log in' }
+2026-11-04T17:59:05.201Z INFO webdriver: RESULT []
+2026-11-04T17:59:05.205Z INFO webdriver: COMMAND findElements("accessibility id", "menu item log in")
+2026-11-04T17:59:05.205Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:05.205Z INFO webdriver: DATA { using: 'accessibility id', value: 'menu item log in' }
+2026-11-04T17:59:05.295Z INFO webdriver: RESULT []
+2026-11-04T17:59:05.305Z INFO webdriver: COMMAND findElements("accessibility id", "menu item log in")
+2026-11-04T17:59:05.305Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:05.305Z INFO webdriver: DATA { using: 'accessibility id', value: 'menu item log in' }
+2026-11-04T17:59:07.029Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0013-ffff-ffff000000a2',
+    ELEMENT: '00000000-0000-0013-ffff-ffff000000a2'
+  }
+]
+2026-11-04T17:59:07.031Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0013-ffff-ffff000000a2")
+2026-11-04T17:59:07.032Z INFO webdriver: [GET] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000a2/displayed
+2026-11-04T17:59:07.054Z INFO webdriver: RESULT true
+2026-11-04T17:59:07.054Z INFO webdriver: COMMAND elementClick("00000000-0000-0013-ffff-ffff000000a2")
+2026-11-04T17:59:07.054Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000a2/click
+2026-11-04T17:59:07.141Z INFO webdriver: RESULT null
+2026-11-04T17:59:07.141Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T17:59:07.141Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:07.141Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T17:59:07.240Z INFO webdriver: RESULT []
+2026-11-04T17:59:07.243Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T17:59:07.243Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:07.243Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T17:59:07.753Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0013-ffff-ffff000000c2',
+    ELEMENT: '00000000-0000-0013-ffff-ffff000000c2'
+  }
+]
+2026-11-04T17:59:07.759Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0013-ffff-ffff000000c2")
+2026-11-04T17:59:07.760Z INFO webdriver: [GET] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000c2/displayed
+2026-11-04T17:59:09.219Z INFO webdriver: RESULT true
+2026-11-04T17:59:09.220Z INFO webdriver: COMMAND elementClear("00000000-0000-0013-ffff-ffff000000c2")
+2026-11-04T17:59:09.220Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000c2/clear
+2026-11-04T17:59:09.272Z INFO webdriver: RESULT null
+2026-11-04T17:59:09.273Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0013-ffff-ffff000000c2", "bob@example.com")
+2026-11-04T17:59:09.273Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000c2/value
+2026-11-04T17:59:09.273Z INFO webdriver: DATA { text: 'bob@example.com' }
+2026-11-04T17:59:09.775Z INFO webdriver: RESULT null
+2026-11-04T17:59:09.776Z INFO webdriver: COMMAND findElements("accessibility id", "Password input field")
+2026-11-04T17:59:09.776Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:09.776Z INFO webdriver: DATA { using: 'accessibility id', value: 'Password input field' }
+2026-11-04T17:59:10.394Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0013-ffff-ffff000000c5',
+    ELEMENT: '00000000-0000-0013-ffff-ffff000000c5'
+  }
+]
+2026-11-04T17:59:10.400Z INFO webdriver: COMMAND elementClear("00000000-0000-0013-ffff-ffff000000c5")
+2026-11-04T17:59:10.401Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000c5/clear
+2026-11-04T17:59:10.421Z INFO webdriver: RESULT null
+2026-11-04T17:59:10.422Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0013-ffff-ffff000000c5", "<Screenshot[base64]>")
+2026-11-04T17:59:10.422Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000c5/value
+2026-11-04T17:59:10.422Z INFO webdriver: DATA { text: '10203040' }
+2026-11-04T17:59:10.931Z INFO webdriver: RESULT null
+2026-11-04T17:59:10.932Z INFO webdriver: COMMAND findElements("accessibility id", "Login button")
+2026-11-04T17:59:10.932Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:10.932Z INFO webdriver: DATA { using: 'accessibility id', value: 'Login button' }
+2026-11-04T17:59:10.973Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0013-ffff-ffff000000c8',
+    ELEMENT: '00000000-0000-0013-ffff-ffff000000c8'
+  }
+]
+2026-11-04T17:59:10.979Z INFO webdriver: COMMAND elementClick("00000000-0000-0013-ffff-ffff000000c8")
+2026-11-04T17:59:10.979Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000c8/click
+2026-11-04T17:59:11.582Z INFO webdriver: RESULT null
+2026-11-04T17:59:11.582Z INFO webdriver: COMMAND findElements("accessibility id", "cart badge")
+2026-11-04T17:59:11.582Z INFO webdriver: [POST] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/elements
+2026-11-04T17:59:11.582Z INFO webdriver: DATA { using: 'accessibility id', value: 'cart badge' }
+2026-11-04T17:59:11.637Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0013-ffff-ffff000000d8',
+    ELEMENT: '00000000-0000-0013-ffff-ffff000000d8'
+  }
+]
+2026-11-04T17:59:11.641Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0013-ffff-ffff000000d8")
+2026-11-04T17:59:11.642Z INFO webdriver: [GET] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7/element/00000000-0000-0013-ffff-ffff000000d8/displayed
+2026-11-04T17:59:11.661Z INFO webdriver: RESULT true
+[INFO] Ending Appium session...
+2026-11-04T17:59:11.663Z INFO webdriver: COMMAND deleteSession()
+2026-11-04T17:59:11.663Z INFO webdriver: [DELETE] http://127.0.0.1:4723/session/48df559e-b3d3-40e9-be90-757fa99280b7
+2026-11-04T17:59:12.344Z INFO webdriver: RESULT null

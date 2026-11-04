@@ -1,0 +1,1546 @@
+[INFO] Connecting to Appium server for Android (No web browser launched)...
+2026-11-04T18:07:53.797Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-11-04T18:07:53.798Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-11-04T18:07:53.802Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-11-04T18:08:29.060Z INFO webdriver: Retrying 1/3
+2026-11-04T18:08:29.060Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-11-04T18:08:40.541Z INFO webdriver: COMMAND findElements("accessibility id", "open menu")
+2026-11-04T18:08:40.542Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:40.542Z INFO webdriver: DATA { using: 'accessibility id', value: 'open menu' }
+2026-11-04T18:08:41.324Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000024',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000024'
+  }
+]
+2026-11-04T18:08:41.337Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff00000024")
+2026-11-04T18:08:41.338Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000024/displayed
+2026-11-04T18:08:41.365Z INFO webdriver: RESULT true
+2026-11-04T18:08:41.366Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000024")
+2026-11-04T18:08:41.366Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000024/click
+2026-11-04T18:08:41.463Z INFO webdriver: RESULT null
+2026-11-04T18:08:41.464Z INFO webdriver: COMMAND findElements("accessibility id", "menu item log in")
+2026-11-04T18:08:41.464Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:41.464Z INFO webdriver: DATA { using: 'accessibility id', value: 'menu item log in' }
+2026-11-04T18:08:41.512Z INFO webdriver: RESULT []
+2026-11-04T18:08:41.523Z INFO webdriver: COMMAND findElements("accessibility id", "menu item log in")
+2026-11-04T18:08:41.525Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:41.525Z INFO webdriver: DATA { using: 'accessibility id', value: 'menu item log in' }
+2026-11-04T18:08:43.059Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000a2',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000a2'
+  }
+]
+2026-11-04T18:08:43.065Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff000000a2")
+2026-11-04T18:08:43.066Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000a2/displayed
+2026-11-04T18:08:43.420Z INFO webdriver: RESULT true
+2026-11-04T18:08:43.421Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff000000a2")
+2026-11-04T18:08:43.421Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000a2/click
+2026-11-04T18:08:43.507Z INFO webdriver: RESULT null
+2026-11-04T18:08:43.511Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T18:08:43.511Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:43.511Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T18:08:43.654Z INFO webdriver: RESULT []
+2026-11-04T18:08:43.661Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T18:08:43.662Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:43.662Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T18:08:45.241Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000c2',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000c2'
+  }
+]
+2026-11-04T18:08:45.251Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff000000c2")
+2026-11-04T18:08:45.252Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000c2/displayed
+2026-11-04T18:08:45.697Z INFO webdriver: RESULT true
+2026-11-04T18:08:45.698Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff000000c2")
+2026-11-04T18:08:45.698Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000c2/clear
+2026-11-04T18:08:45.755Z INFO webdriver: RESULT null
+2026-11-04T18:08:45.756Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff000000c2", "bob@example.com")
+2026-11-04T18:08:45.756Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000c2/value
+2026-11-04T18:08:45.756Z INFO webdriver: DATA { text: 'bob@example.com' }
+2026-11-04T18:08:46.323Z INFO webdriver: RESULT null
+2026-11-04T18:08:46.323Z INFO webdriver: COMMAND findElements("accessibility id", "Password input field")
+2026-11-04T18:08:46.324Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:46.324Z INFO webdriver: DATA { using: 'accessibility id', value: 'Password input field' }
+2026-11-04T18:08:47.018Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000c5',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000c5'
+  }
+]
+2026-11-04T18:08:47.024Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff000000c5")
+2026-11-04T18:08:47.024Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000c5/clear
+2026-11-04T18:08:47.038Z INFO webdriver: RESULT null
+2026-11-04T18:08:47.038Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff000000c5", "<Screenshot[base64]>")
+2026-11-04T18:08:47.039Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000c5/value
+2026-11-04T18:08:47.039Z INFO webdriver: DATA { text: '10203040' }
+2026-11-04T18:08:47.545Z INFO webdriver: RESULT null
+2026-11-04T18:08:47.545Z INFO webdriver: COMMAND findElements("accessibility id", "Login button")
+2026-11-04T18:08:47.545Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:47.545Z INFO webdriver: DATA { using: 'accessibility id', value: 'Login button' }
+2026-11-04T18:08:47.635Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000c8',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000c8'
+  }
+]
+2026-11-04T18:08:47.652Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff000000c8")
+2026-11-04T18:08:47.653Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000c8/click
+2026-11-04T18:08:48.209Z INFO webdriver: RESULT null
+2026-11-04T18:08:48.210Z INFO webdriver: COMMAND findElements("accessibility id", "cart badge")
+2026-11-04T18:08:48.210Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:48.210Z INFO webdriver: DATA { using: 'accessibility id', value: 'cart badge' }
+2026-11-04T18:08:48.274Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000d8',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000d8'
+  }
+]
+2026-11-04T18:08:48.277Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff000000d8")
+2026-11-04T18:08:48.277Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff000000d8/displayed
+2026-11-04T18:08:48.301Z INFO webdriver: RESULT true
+2026-11-04T18:08:48.307Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T18:08:48.307Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:48.307Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T18:08:48.342Z INFO webdriver: RESULT []
+2026-11-04T18:08:48.347Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T18:08:48.347Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:48.347Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T18:08:48.377Z INFO webdriver: RESULT []
+2026-11-04T18:08:48.447Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T18:08:48.447Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:48.447Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T18:08:48.480Z INFO webdriver: RESULT []
+2026-11-04T18:08:48.546Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T18:08:48.547Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:48.547Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T18:08:48.567Z INFO webdriver: RESULT []
+2026-11-04T18:08:48.648Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T18:08:48.648Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:48.648Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T18:08:49.216Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000037',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000037'
+  }
+]
+2026-11-04T18:08:49.219Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff00000037")
+2026-11-04T18:08:49.220Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000037/displayed
+2026-11-04T18:08:49.241Z INFO webdriver: RESULT true
+2026-11-04T18:08:49.242Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000037")
+2026-11-04T18:08:49.242Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000037/click
+2026-11-04T18:08:49.345Z INFO webdriver: RESULT null
+2026-11-04T18:08:49.350Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T18:08:49.350Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:49.350Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T18:08:49.384Z INFO webdriver: RESULT []
+2026-11-04T18:08:49.391Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T18:08:49.392Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:49.392Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T18:08:49.430Z INFO webdriver: RESULT []
+2026-11-04T18:08:49.492Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T18:08:49.493Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:49.493Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T18:08:49.542Z INFO webdriver: RESULT []
+2026-11-04T18:08:49.592Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T18:08:49.592Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:49.592Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T18:08:49.624Z INFO webdriver: RESULT []
+2026-11-04T18:08:49.691Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T18:08:49.691Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:49.691Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T18:08:50.733Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000128',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000128'
+  }
+]
+2026-11-04T18:08:50.736Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff00000128")
+2026-11-04T18:08:50.737Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000128/displayed
+2026-11-04T18:08:50.750Z INFO webdriver: RESULT true
+2026-11-04T18:08:50.751Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000128")
+2026-11-04T18:08:50.751Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000128/click
+2026-11-04T18:08:50.831Z INFO webdriver: RESULT null
+2026-11-04T18:08:50.831Z INFO webdriver: COMMAND findElements("accessibility id", "cart badge")
+2026-11-04T18:08:50.832Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:50.832Z INFO webdriver: DATA { using: 'accessibility id', value: 'cart badge' }
+2026-11-04T18:08:50.902Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000133',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000133'
+  }
+]
+2026-11-04T18:08:50.906Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0009-ffff-ffff00000133", "class name", "android.widget.TextView")
+2026-11-04T18:08:50.906Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000133/elements
+2026-11-04T18:08:50.906Z INFO webdriver: DATA { using: 'class name', value: 'android.widget.TextView' }
+2026-11-04T18:08:50.922Z INFO webdriver: RESULT []
+2026-11-04T18:08:50.926Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0009-ffff-ffff00000133", "class name", "android.widget.TextView")
+2026-11-04T18:08:50.927Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000133/elements
+2026-11-04T18:08:50.927Z INFO webdriver: DATA { using: 'class name', value: 'android.widget.TextView' }
+2026-11-04T18:08:50.941Z INFO webdriver: RESULT []
+2026-11-04T18:08:50.942Z INFO webdriver: COMMAND getElementText("00000000-0000-0009-ffff-ffff00000133")
+2026-11-04T18:08:50.942Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000133/text
+2026-11-04T18:08:50.959Z INFO webdriver: RESULT 
+2026-11-04T18:08:50.962Z INFO webdriver: COMMAND findElements("accessibility id", "cart badge")
+2026-11-04T18:08:50.962Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:50.962Z INFO webdriver: DATA { using: 'accessibility id', value: 'cart badge' }
+2026-11-04T18:08:51.005Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000133',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000133'
+  }
+]
+2026-11-04T18:08:51.008Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff00000133")
+2026-11-04T18:08:51.008Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000133/displayed
+2026-11-04T18:08:51.022Z INFO webdriver: RESULT true
+2026-11-04T18:08:51.023Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000133")
+2026-11-04T18:08:51.023Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000133/click
+2026-11-04T18:08:51.887Z INFO webdriver: RESULT null
+2026-11-04T18:08:51.888Z INFO webdriver: COMMAND findElements("accessibility id", "Proceed To Checkout button")
+2026-11-04T18:08:51.888Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:51.888Z INFO webdriver: DATA { using: 'accessibility id', value: 'Proceed To Checkout button' }
+2026-11-04T18:08:51.907Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000015a',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000015a'
+  }
+]
+2026-11-04T18:08:51.910Z INFO webdriver: COMMAND findElements("accessibility id", "Proceed To Checkout button")
+2026-11-04T18:08:51.911Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:51.911Z INFO webdriver: DATA { using: 'accessibility id', value: 'Proceed To Checkout button' }
+2026-11-04T18:08:51.937Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000015a',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000015a'
+  }
+]
+2026-11-04T18:08:51.942Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff0000015a")
+2026-11-04T18:08:51.943Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000015a/click
+2026-11-04T18:08:52.013Z INFO webdriver: RESULT null
+2026-11-04T18:08:52.013Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T18:08:52.017Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:52.018Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T18:08:52.079Z INFO webdriver: RESULT []
+2026-11-04T18:08:52.082Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T18:08:52.082Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:52.083Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T18:08:52.101Z INFO webdriver: RESULT []
+2026-11-04T18:08:52.101Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T18:08:52.101Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:52.101Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T18:08:52.128Z INFO webdriver: RESULT []
+2026-11-04T18:08:52.131Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T18:08:52.131Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:52.131Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T18:08:52.157Z INFO webdriver: RESULT []
+2026-11-04T18:08:52.231Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T18:08:52.232Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:52.232Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T18:08:53.168Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000016c',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000016c'
+  }
+]
+2026-11-04T18:08:53.178Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff0000016c")
+2026-11-04T18:08:53.178Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000016c/displayed
+2026-11-04T18:08:53.631Z INFO webdriver: RESULT true
+2026-11-04T18:08:53.632Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff0000016c")
+2026-11-04T18:08:53.632Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000016c/clear
+2026-11-04T18:08:53.646Z INFO webdriver: RESULT null
+2026-11-04T18:08:53.647Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff0000016c", "Alice Smith")
+2026-11-04T18:08:53.647Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000016c/value
+2026-11-04T18:08:53.648Z INFO webdriver: DATA { text: 'Alice Smith' }
+2026-11-04T18:08:54.750Z INFO webdriver: RESULT null
+2026-11-04T18:08:54.751Z INFO webdriver: COMMAND findElements("accessibility id", "Address Line 1* input field")
+2026-11-04T18:08:54.751Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:54.752Z INFO webdriver: DATA { using: 'accessibility id', value: 'Address Line 1* input field' }
+2026-11-04T18:08:55.266Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000016f',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000016f'
+  }
+]
+2026-11-04T18:08:55.269Z INFO webdriver: COMMAND findElements("accessibility id", "Address Line 1* input field")
+2026-11-04T18:08:55.270Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:55.271Z INFO webdriver: DATA { using: 'accessibility id', value: 'Address Line 1* input field' }
+2026-11-04T18:08:55.293Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000016f',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000016f'
+  }
+]
+2026-11-04T18:08:55.296Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff0000016f")
+2026-11-04T18:08:55.297Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000016f/clear
+2026-11-04T18:08:55.312Z INFO webdriver: RESULT null
+2026-11-04T18:08:55.313Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff0000016f", "123 Main Street")
+2026-11-04T18:08:55.313Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000016f/value
+2026-11-04T18:08:55.313Z INFO webdriver: DATA { text: '123 Main Street' }
+2026-11-04T18:08:55.836Z INFO webdriver: RESULT null
+2026-11-04T18:08:55.839Z INFO webdriver: COMMAND findElements("accessibility id", "City* input field")
+2026-11-04T18:08:55.839Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:55.839Z INFO webdriver: DATA { using: 'accessibility id', value: 'City* input field' }
+2026-11-04T18:08:56.344Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000175',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000175'
+  }
+]
+2026-11-04T18:08:56.346Z INFO webdriver: COMMAND findElements("accessibility id", "City* input field")
+2026-11-04T18:08:56.346Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:56.346Z INFO webdriver: DATA { using: 'accessibility id', value: 'City* input field' }
+2026-11-04T18:08:56.368Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000175',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000175'
+  }
+]
+2026-11-04T18:08:56.371Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff00000175")
+2026-11-04T18:08:56.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000175/clear
+2026-11-04T18:08:56.387Z INFO webdriver: RESULT null
+2026-11-04T18:08:56.387Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff00000175", "Metropolis")
+2026-11-04T18:08:56.387Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000175/value
+2026-11-04T18:08:56.388Z INFO webdriver: DATA { text: 'Metropolis' }
+2026-11-04T18:08:57.396Z INFO webdriver: RESULT null
+2026-11-04T18:08:57.397Z INFO webdriver: COMMAND findElements("accessibility id", "Zip Code* input field")
+2026-11-04T18:08:57.397Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:57.397Z INFO webdriver: DATA { using: 'accessibility id', value: 'Zip Code* input field' }
+2026-11-04T18:08:57.436Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000017b',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000017b'
+  }
+]
+2026-11-04T18:08:57.439Z INFO webdriver: COMMAND findElements("accessibility id", "Zip Code* input field")
+2026-11-04T18:08:57.439Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:57.439Z INFO webdriver: DATA { using: 'accessibility id', value: 'Zip Code* input field' }
+2026-11-04T18:08:57.909Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000017b',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000017b'
+  }
+]
+2026-11-04T18:08:57.912Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff0000017b")
+2026-11-04T18:08:57.912Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000017b/clear
+2026-11-04T18:08:57.933Z INFO webdriver: RESULT null
+2026-11-04T18:08:57.933Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff0000017b", "90210")
+2026-11-04T18:08:57.933Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000017b/value
+2026-11-04T18:08:57.933Z INFO webdriver: DATA { text: '90210' }
+2026-11-04T18:08:58.938Z INFO webdriver: RESULT null
+2026-11-04T18:08:58.938Z INFO webdriver: COMMAND findElements("accessibility id", "Country* input field")
+2026-11-04T18:08:58.938Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:58.938Z INFO webdriver: DATA { using: 'accessibility id', value: 'Country* input field' }
+2026-11-04T18:08:59.035Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000017e',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000017e'
+  }
+]
+2026-11-04T18:08:59.038Z INFO webdriver: COMMAND findElements("accessibility id", "Country* input field")
+2026-11-04T18:08:59.038Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:08:59.038Z INFO webdriver: DATA { using: 'accessibility id', value: 'Country* input field' }
+2026-11-04T18:08:59.448Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff0000017e',
+    ELEMENT: '00000000-0000-0009-ffff-ffff0000017e'
+  }
+]
+2026-11-04T18:08:59.450Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff0000017e")
+2026-11-04T18:08:59.450Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000017e/clear
+2026-11-04T18:08:59.465Z INFO webdriver: RESULT null
+2026-11-04T18:08:59.465Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff0000017e", "United States")
+2026-11-04T18:08:59.465Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff0000017e/value
+2026-11-04T18:08:59.465Z INFO webdriver: DATA { text: 'United States' }
+2026-11-04T18:09:00.021Z INFO webdriver: RESULT null
+2026-11-04T18:09:00.021Z INFO webdriver: COMMAND isKeyboardShown()
+2026-11-04T18:09:00.021Z INFO webdriver: [GET] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/appium/device/is_keyboard_shown
+2026-11-04T18:09:00.279Z INFO webdriver: RESULT false
+2026-11-04T18:09:00.280Z INFO webdriver: COMMAND findElements("accessibility id", "To Payment button")
+2026-11-04T18:09:00.280Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:00.280Z INFO webdriver: DATA { using: 'accessibility id', value: 'To Payment button' }
+2026-11-04T18:09:01.023Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000181',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000181'
+  }
+]
+2026-11-04T18:09:01.025Z INFO webdriver: COMMAND findElements("accessibility id", "To Payment button")
+2026-11-04T18:09:01.025Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:01.025Z INFO webdriver: DATA { using: 'accessibility id', value: 'To Payment button' }
+2026-11-04T18:09:01.048Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000181',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000181'
+  }
+]
+2026-11-04T18:09:01.050Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000181")
+2026-11-04T18:09:01.050Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/element/00000000-0000-0009-ffff-ffff00000181/click
+2026-11-04T18:09:01.136Z INFO webdriver: RESULT null
+2026-11-04T18:09:01.138Z INFO webdriver: COMMAND findElements("accessibility id", "Card Number* input field")
+2026-11-04T18:09:01.138Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:01.138Z INFO webdriver: DATA { using: 'accessibility id', value: 'Card Number* input field' }
+2026-11-04T18:09:01.184Z INFO webdriver: RESULT []
+2026-11-04T18:09:01.196Z INFO webdriver: COMMAND findElements("accessibility id", "Card Number* input field")
+2026-11-04T18:09:01.196Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:01.196Z INFO webdriver: DATA { using: 'accessibility id', value: 'Card Number* input field' }
+2026-11-04T18:09:01.245Z INFO webdriver: RESULT []
+2026-11-04T18:09:01.246Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:01.246Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:01.246Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:01.266Z INFO webdriver: RESULT []
+2026-11-04T18:09:01.270Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:01.270Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:01.270Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:01.298Z INFO webdriver: RESULT []
+2026-11-04T18:09:01.374Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:01.374Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:01.374Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:02.694Z INFO webdriver: RESULT []
+2026-11-04T18:09:02.696Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:02.697Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:02.697Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:02.724Z INFO webdriver: RESULT []
+2026-11-04T18:09:02.728Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:02.728Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:02.728Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:02.755Z INFO webdriver: RESULT []
+2026-11-04T18:09:02.759Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:02.759Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:02.759Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:02.788Z INFO webdriver: RESULT []
+2026-11-04T18:09:02.791Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:02.792Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:02.792Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:02.815Z INFO webdriver: RESULT []
+2026-11-04T18:09:02.818Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:02.818Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:02.818Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:02.843Z INFO webdriver: RESULT []
+2026-11-04T18:09:02.845Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:02.846Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:02.846Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:02.895Z INFO webdriver: RESULT []
+2026-11-04T18:09:02.898Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:02.898Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:02.898Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:02.981Z INFO webdriver: RESULT []
+2026-11-04T18:09:02.985Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:02.985Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:02.986Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.313Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.316Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.317Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.317Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.340Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.343Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.343Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.368Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.371Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.371Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.393Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.396Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.397Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.397Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.418Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.420Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.421Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.421Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.443Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.447Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.447Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.447Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.471Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.474Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.474Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.474Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.497Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.500Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.500Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.500Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.526Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.528Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.529Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.529Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.550Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.554Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.554Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.554Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.577Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.581Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.581Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.581Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.603Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.606Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.606Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.606Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.628Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.631Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.631Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.631Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.654Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.657Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.657Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.657Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.683Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.686Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.686Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.686Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.709Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.770Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.770Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.771Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.794Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.870Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.871Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.871Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.894Z INFO webdriver: RESULT []
+2026-11-04T18:09:03.970Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:03.970Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:03.970Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:03.994Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.070Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.071Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.071Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.093Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.170Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.170Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.170Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.195Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.270Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.270Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.270Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.299Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.370Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.371Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.399Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.471Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.471Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.471Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.493Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.570Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.570Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.570Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.591Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.670Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.671Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.671Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.693Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.771Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.771Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.771Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.794Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.870Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.870Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.870Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.893Z INFO webdriver: RESULT []
+2026-11-04T18:09:04.970Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:04.970Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:04.970Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:04.998Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.070Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.070Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.070Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.094Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.171Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.171Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.171Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.194Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.271Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.271Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.271Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.294Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.371Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.371Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.392Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.470Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.471Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.471Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.490Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.570Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.570Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.570Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.593Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.670Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.670Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.670Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.693Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.771Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.771Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.771Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.795Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.870Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.870Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.870Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.894Z INFO webdriver: RESULT []
+2026-11-04T18:09:05.970Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:05.970Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:05.970Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:05.994Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.071Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.071Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.071Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.093Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.171Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.171Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.171Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.193Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.270Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.270Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.270Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.291Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.371Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.371Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.394Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.471Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.471Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.471Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.495Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.570Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.570Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.570Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.598Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.670Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.670Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.670Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.693Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.770Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.770Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.771Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.794Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.870Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.871Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.871Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.894Z INFO webdriver: RESULT []
+2026-11-04T18:09:06.970Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:06.970Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:06.970Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:06.990Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.070Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.070Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.070Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.096Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.170Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.171Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.171Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.196Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.270Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.270Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.270Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.292Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.370Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.370Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.370Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.395Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.470Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.471Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.471Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.493Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.571Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.571Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.571Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.595Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.670Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.671Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.671Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.693Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.771Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.771Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.771Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.798Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.870Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.871Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.871Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.893Z INFO webdriver: RESULT []
+2026-11-04T18:09:07.971Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:07.971Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:07.971Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:07.993Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.071Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.071Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.071Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.095Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.170Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.170Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.170Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.193Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.271Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.271Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.271Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.297Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.370Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.371Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.394Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.470Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.471Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.471Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.497Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.571Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.571Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.571Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.596Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.670Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.671Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.671Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.693Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.770Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.771Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.771Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.792Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.870Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.870Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.870Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.897Z INFO webdriver: RESULT []
+2026-11-04T18:09:08.970Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:08.971Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:08.971Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:08.991Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.070Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.071Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.071Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.094Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.170Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.170Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.170Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.191Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.270Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.271Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.271Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.296Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.370Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.371Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.395Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.470Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.470Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.471Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.490Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.571Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.571Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.571Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.592Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.670Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.670Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.670Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.694Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.770Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.770Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.770Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.792Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.871Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.871Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.871Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.892Z INFO webdriver: RESULT []
+2026-11-04T18:09:09.970Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:09.970Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:09.971Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:09.993Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.071Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.071Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.071Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.096Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.171Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.171Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.171Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.195Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.270Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.271Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.271Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.293Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.371Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.371Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.394Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.471Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.471Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.471Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.493Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.570Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.571Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.571Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.593Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.670Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.670Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.670Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.691Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.770Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.770Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.770Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.802Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.870Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.871Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.871Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.894Z INFO webdriver: RESULT []
+2026-11-04T18:09:10.970Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:10.971Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:10.971Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:10.996Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.070Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:11.070Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.071Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:11.092Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.170Z INFO webdriver: COMMAND findElements("accessibility id", "Place Order button")
+2026-11-04T18:09:11.170Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.171Z INFO webdriver: DATA { using: 'accessibility id', value: 'Place Order button' }
+2026-11-04T18:09:11.192Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.271Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Place Order").clickable(true)")
+2026-11-04T18:09:11.271Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.271Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Place Order").clickable(true)'
+}
+2026-11-04T18:09:11.294Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.296Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Place Order").clickable(true)")
+2026-11-04T18:09:11.296Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.296Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Place Order").clickable(true)'
+}
+2026-11-04T18:09:11.319Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.320Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:11.320Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.320Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:11.341Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.343Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:11.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.343Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:11.365Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.444Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:11.444Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.444Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:11.464Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.543Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:11.544Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.544Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:11.567Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.644Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:11.644Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.644Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:11.667Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.744Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:11.744Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.744Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:11.768Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.843Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:11.843Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.843Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:11.865Z INFO webdriver: RESULT []
+2026-11-04T18:09:11.944Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:11.944Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:11.944Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:11.968Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.044Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.044Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.044Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.067Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.143Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.143Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.143Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.170Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.243Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.244Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.244Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.264Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.343Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.343Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.363Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.444Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.444Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.444Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.464Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.543Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.544Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.544Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.567Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.643Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.643Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.644Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.665Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.744Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.744Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.744Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.768Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.843Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.843Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.843Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.864Z INFO webdriver: RESULT []
+2026-11-04T18:09:12.943Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:12.943Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:12.943Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:12.966Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.043Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.043Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.043Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.068Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.143Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.143Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.143Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.166Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.243Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.243Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.243Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.268Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.343Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.343Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.373Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.443Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.443Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.443Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.463Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.543Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.543Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.543Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.568Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.644Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.644Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.644Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.665Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.743Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.744Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.744Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.765Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.843Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.844Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.844Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.864Z INFO webdriver: RESULT []
+2026-11-04T18:09:13.944Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:13.944Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:13.944Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:13.969Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.043Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.044Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.044Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.066Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.143Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.144Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.144Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.165Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.243Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.243Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.244Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.289Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.343Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.343Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.365Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.443Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.444Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.444Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.465Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.543Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.544Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.544Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.566Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.643Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.643Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.643Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.664Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.744Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.744Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.744Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.767Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.844Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.844Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.844Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.867Z INFO webdriver: RESULT []
+2026-11-04T18:09:14.943Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:14.943Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:14.944Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:14.966Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.043Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.044Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.044Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.069Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.144Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.144Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.144Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.165Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.243Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.243Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.243Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.266Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.344Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.344Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.344Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.371Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.443Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.443Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.443Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.464Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.544Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.544Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.544Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.566Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.643Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.644Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.644Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.667Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.744Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.744Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.744Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.766Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.843Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.843Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.843Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.869Z INFO webdriver: RESULT []
+2026-11-04T18:09:15.943Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:15.944Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:15.944Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:15.968Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.044Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.044Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.044Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.067Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.143Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.143Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.143Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.167Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.243Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.244Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.244Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.265Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.344Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.344Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.344Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.369Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.444Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.444Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.444Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.472Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.543Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.543Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.544Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.567Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.643Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.643Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.644Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.667Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.743Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.743Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.743Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.769Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.843Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.844Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.844Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.875Z INFO webdriver: RESULT []
+2026-11-04T18:09:16.943Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:16.944Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:16.944Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:16.970Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.043Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.044Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.044Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.071Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.144Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.144Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.144Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.166Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.244Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.244Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.244Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.269Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.344Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.344Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.344Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.364Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.444Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.444Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.444Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.468Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.544Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.544Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.544Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.569Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.643Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.643Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.643Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.665Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.743Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.743Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.743Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.766Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.843Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.843Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.843Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.867Z INFO webdriver: RESULT []
+2026-11-04T18:09:17.943Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:17.943Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:17.943Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:17.963Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.043Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.043Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.044Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.067Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.143Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.143Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.144Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.166Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.243Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.244Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.244Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.266Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.343Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.343Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.365Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.443Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.444Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.444Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.471Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.543Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.543Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.544Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.563Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.644Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.644Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.644Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.669Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.743Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.743Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.743Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.766Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.843Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.844Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.844Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.864Z INFO webdriver: RESULT []
+2026-11-04T18:09:18.943Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:18.944Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:18.944Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:18.964Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.043Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.043Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.043Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.070Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.143Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.143Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.144Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.166Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.243Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.244Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.244Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.267Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.343Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.343Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.366Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.444Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.444Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.444Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.466Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.544Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.544Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.544Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.567Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.644Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.644Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.644Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.665Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.743Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.743Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.744Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.764Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.843Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.844Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.844Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.867Z INFO webdriver: RESULT []
+2026-11-04T18:09:19.943Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:19.944Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:19.944Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:19.964Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.044Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.044Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.044Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.066Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.144Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.144Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.144Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.164Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.243Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.243Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.243Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.263Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.343Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.343Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.366Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.444Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.444Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.444Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.469Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.543Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.543Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.543Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.589Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.643Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.644Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.644Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.666Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.743Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.744Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.744Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.765Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.844Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.844Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.844Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.865Z INFO webdriver: RESULT []
+2026-11-04T18:09:20.943Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:20.944Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:20.944Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:20.967Z INFO webdriver: RESULT []
+2026-11-04T18:09:21.043Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:21.043Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:21.043Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:21.063Z INFO webdriver: RESULT []
+2026-11-04T18:09:21.143Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:21.144Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:21.144Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:21.165Z INFO webdriver: RESULT []
+2026-11-04T18:09:21.244Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Thank you")")
+2026-11-04T18:09:21.244Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:21.244Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Thank you")'
+}
+2026-11-04T18:09:21.267Z INFO webdriver: RESULT []
+2026-11-04T18:09:21.343Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Complete")")
+2026-11-04T18:09:21.344Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:21.344Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Complete")'
+}
+2026-11-04T18:09:21.365Z INFO webdriver: RESULT []
+2026-11-04T18:09:21.367Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Complete")")
+2026-11-04T18:09:21.367Z INFO webdriver: [POST] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a/elements
+2026-11-04T18:09:21.367Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Complete")'
+}
+2026-11-04T18:09:21.389Z INFO webdriver: RESULT []
+[INFO] Ending Appium session...
+2026-11-04T18:09:21.391Z INFO webdriver: COMMAND deleteSession()
+2026-11-04T18:09:21.392Z INFO webdriver: [DELETE] http://127.0.0.1:4723/session/259d1c6e-c107-4d2c-af68-abd949d0337a
+2026-11-04T18:09:21.900Z INFO webdriver: RESULT null

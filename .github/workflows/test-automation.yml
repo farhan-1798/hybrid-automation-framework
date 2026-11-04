@@ -8,6 +8,7 @@ on:
       - 'CI-CD-**'
       - 'platform-seperated-**'
       - 'test-data-**'
+      - 'fix/**'
   pull_request:
     branches:
       - main

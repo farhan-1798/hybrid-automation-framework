@@ -12,7 +12,7 @@ const branch = process.env.GITHUB_REF_NAME || 'main';
 const commitSha = (process.env.GITHUB_SHA || '').substring(0, 7);
 const triggerEvent = process.env.GITHUB_EVENT_NAME || 'push';
 
-const reportUrl = 'https://farhan-1798.github.io/hybrid-automation-framework/';
+const reportUrl = 'https://farhan-1798.github.io/hybrid-automation-framework/index.html';
 const actionRunUrl = `https://github.com/${repo}/actions/runs/${runId}`;
 
 function getBadge(status) {
@@ -54,9 +54,12 @@ const html = `
 
         <!-- CTA Button -->
         <div style="text-align: center; margin: 28px 0;">
-          <a href="${reportUrl}" style="background-color: #2da44e; color: #ffffff; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 16px; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <a href="${reportUrl}" target="_blank" rel="noopener noreferrer" style="background-color: #2da44e; color: #ffffff; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 16px; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             📊 View Live Allure Report &rarr;
           </a>
+          <p style="margin-top: 10px; font-size: 13px; color: #57606a;">
+            Direct Link: <a href="${reportUrl}" target="_blank" rel="noopener noreferrer" style="color: #0969da;">${reportUrl}</a>
+          </p>
         </div>
 
         <!-- Platform Breakdown Table -->
@@ -95,6 +98,7 @@ const html = `
         Automated Notification sent to <strong>farhan.naser71@gmail.com</strong> &bull; Hybrid Automation Framework
       </td>
     </tr>
+
   </table>
 </body>
 </html>

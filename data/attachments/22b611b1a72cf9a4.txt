@@ -1,0 +1,640 @@
+[INFO] Connecting to Appium server for Android (No web browser launched)...
+2026-11-04T17:54:09.583Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-11-04T17:54:09.584Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-11-04T17:54:09.586Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-11-04T17:54:53.540Z INFO webdriver: COMMAND findElements("accessibility id", "open menu")
+2026-11-04T17:54:53.541Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:54:53.541Z INFO webdriver: DATA { using: 'accessibility id', value: 'open menu' }
+2026-11-04T17:54:54.215Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000024',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000024'
+  }
+]
+2026-11-04T17:54:54.244Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff00000024")
+2026-11-04T17:54:54.245Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000024/displayed
+2026-11-04T17:54:54.602Z INFO webdriver: RESULT true
+2026-11-04T17:54:54.604Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000024")
+2026-11-04T17:54:54.605Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000024/click
+2026-11-04T17:54:56.939Z INFO webdriver: RESULT null
+2026-11-04T17:54:56.940Z INFO webdriver: COMMAND findElements("accessibility id", "menu item log in")
+2026-11-04T17:54:56.940Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:54:56.940Z INFO webdriver: DATA { using: 'accessibility id', value: 'menu item log in' }
+2026-11-04T17:54:56.988Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000a2',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000a2'
+  }
+]
+2026-11-04T17:54:56.996Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff000000a2")
+2026-11-04T17:54:56.997Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000a2/displayed
+2026-11-04T17:54:57.029Z INFO webdriver: RESULT true
+2026-11-04T17:54:57.030Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff000000a2")
+2026-11-04T17:54:57.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000a2/click
+2026-11-04T17:54:57.091Z INFO webdriver: RESULT null
+2026-11-04T17:54:57.091Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T17:54:57.092Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:54:57.092Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T17:54:57.192Z INFO webdriver: RESULT []
+2026-11-04T17:54:57.200Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T17:54:57.201Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:54:57.201Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T17:54:57.248Z INFO webdriver: RESULT []
+2026-11-04T17:54:57.303Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T17:54:57.303Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:54:57.303Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T17:54:57.829Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000c2',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000c2'
+  }
+]
+2026-11-04T17:54:57.837Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff000000c2")
+2026-11-04T17:54:57.843Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000c2/displayed
+2026-11-04T17:54:59.044Z INFO webdriver: RESULT true
+2026-11-04T17:54:59.045Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff000000c2")
+2026-11-04T17:54:59.045Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000c2/clear
+2026-11-04T17:54:59.262Z INFO webdriver: RESULT null
+2026-11-04T17:54:59.263Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff000000c2", "bob@example.com")
+2026-11-04T17:54:59.263Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000c2/value
+2026-11-04T17:54:59.263Z INFO webdriver: DATA { text: 'bob@example.com' }
+2026-11-04T17:54:59.806Z INFO webdriver: RESULT null
+2026-11-04T17:54:59.806Z INFO webdriver: COMMAND findElements("accessibility id", "Password input field")
+2026-11-04T17:54:59.807Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:54:59.807Z INFO webdriver: DATA { using: 'accessibility id', value: 'Password input field' }
+2026-11-04T17:55:00.941Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000c5',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000c5'
+  }
+]
+2026-11-04T17:55:00.947Z INFO webdriver: COMMAND elementClear("00000000-0000-0009-ffff-ffff000000c5")
+2026-11-04T17:55:00.947Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000c5/clear
+2026-11-04T17:55:00.971Z INFO webdriver: RESULT null
+2026-11-04T17:55:00.972Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0009-ffff-ffff000000c5", "<Screenshot[base64]>")
+2026-11-04T17:55:00.972Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000c5/value
+2026-11-04T17:55:00.972Z INFO webdriver: DATA { text: '10203040' }
+2026-11-04T17:55:01.483Z INFO webdriver: RESULT null
+2026-11-04T17:55:01.484Z INFO webdriver: COMMAND findElements("accessibility id", "Login button")
+2026-11-04T17:55:01.484Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:01.484Z INFO webdriver: DATA { using: 'accessibility id', value: 'Login button' }
+2026-11-04T17:55:01.595Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000c8',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000c8'
+  }
+]
+2026-11-04T17:55:01.600Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff000000c8")
+2026-11-04T17:55:01.601Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000c8/click
+2026-11-04T17:55:02.181Z INFO webdriver: RESULT null
+2026-11-04T17:55:02.182Z INFO webdriver: COMMAND findElements("accessibility id", "cart badge")
+2026-11-04T17:55:02.182Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:02.182Z INFO webdriver: DATA { using: 'accessibility id', value: 'cart badge' }
+2026-11-04T17:55:02.232Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff000000d8',
+    ELEMENT: '00000000-0000-0009-ffff-ffff000000d8'
+  }
+]
+2026-11-04T17:55:02.235Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff000000d8")
+2026-11-04T17:55:02.235Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff000000d8/displayed
+2026-11-04T17:55:02.252Z INFO webdriver: RESULT true
+2026-11-04T17:55:02.261Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T17:55:02.261Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:02.261Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T17:55:02.291Z INFO webdriver: RESULT []
+2026-11-04T17:55:02.297Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T17:55:02.298Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:02.298Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T17:55:02.328Z INFO webdriver: RESULT []
+2026-11-04T17:55:02.397Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T17:55:02.398Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:02.398Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T17:55:02.426Z INFO webdriver: RESULT []
+2026-11-04T17:55:02.497Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T17:55:02.497Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:02.497Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T17:55:02.523Z INFO webdriver: RESULT []
+2026-11-04T17:55:02.598Z INFO webdriver: COMMAND findElements("-android uiautomator", "new UiSelector().textContains("Sauce Labs Backpack")")
+2026-11-04T17:55:02.599Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:02.599Z INFO webdriver: DATA {
+  using: '-android uiautomator',
+  value: 'new UiSelector().textContains("Sauce Labs Backpack")'
+}
+2026-11-04T17:55:03.265Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000037',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000037'
+  }
+]
+2026-11-04T17:55:03.269Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff00000037")
+2026-11-04T17:55:03.269Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000037/displayed
+2026-11-04T17:55:03.310Z INFO webdriver: RESULT true
+2026-11-04T17:55:03.311Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000037")
+2026-11-04T17:55:03.311Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000037/click
+2026-11-04T17:55:03.403Z INFO webdriver: RESULT null
+2026-11-04T17:55:03.403Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T17:55:03.404Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:03.404Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T17:55:03.474Z INFO webdriver: RESULT []
+2026-11-04T17:55:03.477Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T17:55:03.477Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:03.478Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T17:55:03.558Z INFO webdriver: RESULT []
+2026-11-04T17:55:03.578Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T17:55:03.578Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:03.578Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T17:55:03.629Z INFO webdriver: RESULT []
+2026-11-04T17:55:03.677Z INFO webdriver: COMMAND findElements("accessibility id", "Add To Cart button")
+2026-11-04T17:55:03.678Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:03.678Z INFO webdriver: DATA { using: 'accessibility id', value: 'Add To Cart button' }
+2026-11-04T17:55:04.765Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000128',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000128'
+  }
+]
+2026-11-04T17:55:04.770Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff00000128")
+2026-11-04T17:55:04.770Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000128/displayed
+2026-11-04T17:55:04.830Z INFO webdriver: RESULT true
+2026-11-04T17:55:04.831Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000128")
+2026-11-04T17:55:04.831Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000128/click
+2026-11-04T17:55:05.135Z INFO webdriver: RESULT null
+2026-11-04T17:55:05.135Z INFO webdriver: COMMAND findElements("accessibility id", "cart badge")
+2026-11-04T17:55:05.135Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:05.135Z INFO webdriver: DATA { using: 'accessibility id', value: 'cart badge' }
+2026-11-04T17:55:05.181Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000133',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000133'
+  }
+]
+2026-11-04T17:55:05.185Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0009-ffff-ffff00000133", "class name", "android.widget.TextView")
+2026-11-04T17:55:05.186Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000133/elements
+2026-11-04T17:55:05.186Z INFO webdriver: DATA { using: 'class name', value: 'android.widget.TextView' }
+2026-11-04T17:55:05.214Z INFO webdriver: RESULT []
+2026-11-04T17:55:05.219Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0009-ffff-ffff00000133", "class name", "android.widget.TextView")
+2026-11-04T17:55:05.220Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000133/elements
+2026-11-04T17:55:05.220Z INFO webdriver: DATA { using: 'class name', value: 'android.widget.TextView' }
+2026-11-04T17:55:05.261Z INFO webdriver: RESULT []
+2026-11-04T17:55:05.262Z INFO webdriver: COMMAND getElementText("00000000-0000-0009-ffff-ffff00000133")
+2026-11-04T17:55:05.270Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000133/text
+2026-11-04T17:55:05.522Z INFO webdriver: RESULT 
+2026-11-04T17:55:05.528Z INFO webdriver: COMMAND findElements("accessibility id", "cart badge")
+2026-11-04T17:55:05.529Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:05.529Z INFO webdriver: DATA { using: 'accessibility id', value: 'cart badge' }
+2026-11-04T17:55:05.655Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0009-ffff-ffff00000133',
+    ELEMENT: '00000000-0000-0009-ffff-ffff00000133'
+  }
+]
+2026-11-04T17:55:05.658Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0009-ffff-ffff00000133")
+2026-11-04T17:55:05.658Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000133/displayed
+2026-11-04T17:55:05.689Z INFO webdriver: RESULT true
+2026-11-04T17:55:05.690Z INFO webdriver: COMMAND elementClick("00000000-0000-0009-ffff-ffff00000133")
+2026-11-04T17:55:05.690Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/element/00000000-0000-0009-ffff-ffff00000133/click
+2026-11-04T17:55:05.785Z INFO webdriver: RESULT null
+2026-11-04T17:55:05.785Z INFO webdriver: COMMAND findElements("accessibility id", "Proceed To Checkout button")
+2026-11-04T17:55:05.786Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:05.786Z INFO webdriver: DATA { using: 'accessibility id', value: 'Proceed To Checkout button' }
+2026-11-04T17:55:05.821Z INFO webdriver: RESULT []
+2026-11-04T17:55:05.824Z INFO webdriver: COMMAND findElements("accessibility id", "Proceed To Checkout button")
+2026-11-04T17:55:05.824Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:05.825Z INFO webdriver: DATA { using: 'accessibility id', value: 'Proceed To Checkout button' }
+2026-11-04T17:55:05.848Z INFO webdriver: RESULT []
+2026-11-04T17:55:05.848Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T17:55:05.848Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:05.848Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T17:55:06.865Z INFO webdriver: RESULT []
+2026-11-04T17:55:06.871Z INFO webdriver: COMMAND findElements("accessibility id", "Username input field")
+2026-11-04T17:55:06.872Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:06.872Z INFO webdriver: DATA { using: 'accessibility id', value: 'Username input field' }
+2026-11-04T17:55:06.899Z INFO webdriver: RESULT []
+2026-11-04T17:55:06.899Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:06.899Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:06.899Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:06.926Z INFO webdriver: RESULT []
+2026-11-04T17:55:06.929Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:06.931Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:06.931Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:06.958Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.028Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.029Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.029Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:07.053Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.130Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.131Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.131Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:07.170Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.229Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.229Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.229Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:07.263Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.330Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.330Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.330Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:07.366Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.430Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.431Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.431Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:07.453Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.530Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.531Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.531Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:07.559Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.629Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.629Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:07.654Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.730Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.731Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:07.764Z INFO webdriver: RESULT []
+2026-11-04T17:55:07.831Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:07.832Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:07.832Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.219Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.228Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.229Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.229Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.286Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.291Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.292Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.293Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.316Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.322Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.322Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.322Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.361Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.369Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.369Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.369Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.432Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.436Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.437Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.437Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.469Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.474Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.474Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.475Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.500Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.530Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.531Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.531Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.563Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.630Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.631Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.631Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.655Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.730Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.731Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.753Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.830Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.831Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.831Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.859Z INFO webdriver: RESULT []
+2026-11-04T17:55:08.930Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:08.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:08.930Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:08.966Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.029Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.030Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.055Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.129Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.130Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.153Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.230Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.230Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.231Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.256Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.329Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.329Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.329Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.363Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.430Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.430Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.458Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.530Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.531Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.565Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.629Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.629Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.659Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.729Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.730Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.762Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.829Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.829Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.829Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.854Z INFO webdriver: RESULT []
+2026-11-04T17:55:09.930Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:09.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:09.930Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:09.955Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.029Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.029Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.029Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.060Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.130Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.130Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.153Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.230Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.230Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.230Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.257Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.330Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.330Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.331Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.359Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.430Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.430Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.453Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.530Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.531Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.557Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.630Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.630Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.630Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.656Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.730Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.730Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.760Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.830Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.831Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.856Z INFO webdriver: RESULT []
+2026-11-04T17:55:10.929Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:10.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:10.930Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:10.960Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.029Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.029Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.030Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.054Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.130Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.130Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.154Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.230Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.230Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.230Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.255Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.330Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.331Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.331Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.355Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.430Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.430Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.457Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.530Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.531Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.531Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.565Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.629Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.629Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.655Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.730Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.730Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.758Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.830Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.831Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.831Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.855Z INFO webdriver: RESULT []
+2026-11-04T17:55:11.930Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:11.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:11.930Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:11.957Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.030Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.030Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.054Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.129Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.129Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.129Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.164Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.228Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.229Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.229Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.263Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.329Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.330Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.330Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.413Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.430Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.431Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.458Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.530Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.530Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.550Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.629Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.629Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.659Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.729Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.730Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.752Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.829Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.831Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.855Z INFO webdriver: RESULT []
+2026-11-04T17:55:12.929Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:12.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:12.930Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:12.956Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.030Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.031Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.059Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.129Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.130Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.150Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.230Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.230Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.230Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.251Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.328Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.329Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.329Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.349Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.430Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.431Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.431Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.462Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.529Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.530Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.551Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.630Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.631Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.631Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.653Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.729Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.729Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.729Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.752Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.830Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.831Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.853Z INFO webdriver: RESULT []
+2026-11-04T17:55:13.930Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:13.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:13.930Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:13.965Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.030Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.030Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.058Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.130Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.130Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.159Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.230Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.230Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.230Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.255Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.329Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.330Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.330Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.365Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.430Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.431Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.431Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.453Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.528Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.529Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.529Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.553Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.629Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.629Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.650Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.730Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.730Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.751Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.830Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.830Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.852Z INFO webdriver: RESULT []
+2026-11-04T17:55:14.930Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:14.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:14.931Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:14.952Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.030Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.030Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.051Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.129Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.129Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.129Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.147Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.230Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.230Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.230Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.250Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.330Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.330Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.331Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.352Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.429Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.430Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.450Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.530Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.531Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.552Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.628Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.629Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.650Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.729Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.730Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.750Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.830Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.830Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.856Z INFO webdriver: RESULT []
+2026-11-04T17:55:15.930Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:15.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:15.930Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:15.951Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.030Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.030Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.050Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.130Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.130Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.151Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.229Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.229Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.229Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.248Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.329Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.329Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.330Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.348Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.429Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.429Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.430Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.448Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.530Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.530Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.551Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.629Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.630Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.630Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.649Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.729Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.730Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.748Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.828Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.829Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.829Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.850Z INFO webdriver: RESULT []
+2026-11-04T17:55:16.929Z INFO webdriver: COMMAND findElements("accessibility id", "Full Name* input field")
+2026-11-04T17:55:16.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/elements
+2026-11-04T17:55:16.930Z INFO webdriver: DATA { using: 'accessibility id', value: 'Full Name* input field' }
+2026-11-04T17:55:16.941Z INFO webdriver: COMMAND takeScreenshot()
+2026-11-04T17:55:16.942Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65/screenshot
+2026-11-04T17:55:16.962Z INFO webdriver: RESULT []
+2026-11-04T17:55:17.422Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6...
+[INFO] Ending Appium session...
+2026-11-04T17:55:17.427Z INFO webdriver: COMMAND deleteSession()
+2026-11-04T17:55:17.427Z INFO webdriver: [DELETE] http://127.0.0.1:4723/session/f4d4f8f8-4160-43e1-8439-3ceab7fafc65
+2026-11-04T17:55:18.163Z INFO webdriver: RESULT null
